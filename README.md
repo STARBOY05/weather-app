@@ -1,3 +1,6 @@
+<h1>Made a Weather App which fetches weather data <br> from OpenWeather API</h1>
+
+<hr>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
