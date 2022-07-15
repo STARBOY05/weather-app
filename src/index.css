@@ -23,15 +23,26 @@ section {
 }
 
 .weather-box {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("https://c4.wallpaperflare.com/wallpaper/283/579/596/gravity-falls-wallpaper-preview.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("https://c4.wallpaperflare.com/wallpaper/283/579/596/gravity-falls-wallpaper-preview.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: 0.4s ease-in-out;
-    filter: drop-shadow(5px 5px 5px crimson);
+    transition: 0.5s ease-in-out;
+    filter: drop-shadow(5px 5px 10px crimson);
 }
 
-.temp {
+.temp,
+.title {
     background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.flex-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warm {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url("https://c4.wallpaperflare.com/wallpaper/203/203/693/sunset-drawing-animals-lake-wallpaper-preview.jpg");
 }
