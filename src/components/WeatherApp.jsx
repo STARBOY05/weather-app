@@ -73,9 +73,9 @@ function WeatherApp() {
                 {((typeof (weather.main) != "undefined")) ? (
                     <div className='flex justify-around items-center flex-col'>
                         {/* location-box */}
-                        <div className='my-8 text-center'>
+                        <div className='text-center'>
                             {/* location */}
-                            < h2 className='text-[#fff] text-5xl font-medium my-2'>{weather.name}, {weather.sys.country}</h2>
+                            < h2 className='text-[#fff] text-5xl font-medium'>{weather.name}, {weather.sys.country}</h2>
                             {/* date */}
                             <h3 className='text-[#fff] text-3xl italic my-2'>{dateBuilder(new Date())}</h3>
                         </div>
