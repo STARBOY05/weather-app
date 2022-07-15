@@ -1,6 +1,6 @@
 <h1>Made a Weather App which fetches weather data <br> from OpenWeather API</h1>
 <div align="center">
-<img width="80%" src="https://user-images.githubusercontent.com/66910758/179046428-d8b1bb1d-59ce-43c8-87ff-47e10d046fd9.png"></img>
+<img width="90%" src="https://user-images.githubusercontent.com/66910758/179046428-d8b1bb1d-59ce-43c8-87ff-47e10d046fd9.png"></img>
 </div>
 <hr>
 
