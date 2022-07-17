@@ -65,7 +65,7 @@ function WeatherApp() {
         <section className="flex-style flex-col">
             <h1 className='title text-center text-4xl text-[#fff] px-[15px] py-[10px] mb-3'>WEATHER APP</h1>
             {/* Container */}
-            <div className={((typeof (weather.main) === "undefined")) ? ('weather-box lg:min-w-[30%] flex-style p-5 flex-col md:min-w-[60%] mt-10') : ('weather-box lg:min-w-[30%] flex justify-around p-5 flex-col md:min-w-[60%] mt-10')}>
+            <div className={((typeof (weather.main) === "undefined")) ? ('weather-box lg:min-w-[30%] flex-style p-5 flex-col sm:min-w-[60%] mt-10') : ('weather-box lg:min-w-[30%] flex justify-around p-5 flex-col sm:min-w-[60%] mt-10')}>
                 <div className='flex-style flex-col py-5 my-4'>
                     <input type="text" className='py-2 px-5 mx-2 mb-5 placeholder-black text-center rounded-2xl lg:min-w-[50%] md:w-[80%] text-2xl' placeholder='Search for a place' onChange={(e) => { setQuery(e.target.value) }} value={query} />
                     <button className='py-2 px-10 bg-[crimson] rounded-md text-white md:text-2xl mt-3' onClick={handleClick}>Fetch</button>
